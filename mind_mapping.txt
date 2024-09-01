@@ -1,0 +1,28 @@
+Guess the word
+Part1:-
+HTML and CSS Markup:
+Tips=:
+name The title and the footer form the js file not from the html file
+CSS Tips:
+Nested 
+Insted of 
+.main-area .game {
+
+}
+do
+.main-are {
+    .game {
+
+    }
+}
+its more clean and orginzed
+if there is one element with more than one class use &.game
+
+Part2:-
+In JS file settings numbers of tries, for how many try can a user guess the word
+numbers of Lettersm how many letters per word
+current tries wgich is the frist try and it will increase each time 
+the user guesses wrong
+then start generate the fucntion that will start generate
+input
+tries first loop on how many try and then how many letters

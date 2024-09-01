@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Guess The Word Game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<h1></h1>
+<h1 style="border-bottom: 2px solid black; width: fit-content; margin: 0 auto;">How Long Did It Take To Guess The
+    Correct Letter?</h1>
+<h1 style="border-bottom: 2px solid black; text-transform: capitalize; width:fit-content; margin: 20px auto;">your Word
+    will
+    be one of those:- <br>
+
+    create - update - delete - remove - Change - manage</h1>
+<div class="guess-game">
+    <div class="game-area">
+        <div class="inputs"></div>
+        <div class="control">
+            <button class="check">Check Word</button>
+            <button class="hint"><span></span> Hints</button>
+        </div>
+        <div class="message"></div>
+    </div>
+    <div class="key-colors">
+        <h2>Key Colors</h2>
+        <div class="key-color">
+            <div class="key not-in-place"></div>
+            <div class="key-text">Letter Is Correct And in Place</div>
+        </div>
+        <div class="key-color">
+            <div class="key in-place"></div>
+            <div class="key-text">Letter Is Correct But Not in Place</div>
+        </div>
+        <div class="key-color">
+            <div class="key no"></div>
+            <div class="key-text">Letter Is Wrong</div>
+        </div>
+    </div>
+</div>
+<footer></footer>
+
+<body>
+    <script src="main.js"></script>
+</body>
+
+</html>
